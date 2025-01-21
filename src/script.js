@@ -5,10 +5,10 @@ head.innerHTML = `
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="cyberded/index.html" class="nav-link px-2 text-white">Главная</a></li>
-                    <li><a href="cyberded/bando.html" class="nav-link px-2 text-white">Общежитие</a></li>
-                    <li><a href="cyberded/answers.html" class="nav-link px-2 text-white">Ответы</a></li>
-                    <li><a href="cyberded/learn.html" class="nav-link px-2 text-white">Учеба</a></li>
+                    <li><a href="/index.html" class="nav-link px-2 text-white">Главная</a></li>
+                    <li><a href="/bando.html" class="nav-link px-2 text-white">Общежитие</a></li>
+                    <li><a href="/answers.html" class="nav-link px-2 text-white">Ответы</a></li>
+                    <li><a href="/learn.html" class="nav-link px-2 text-white">Учеба</a></li>
                 </ul>
         
             </div>
