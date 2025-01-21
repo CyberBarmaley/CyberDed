@@ -1,3 +1,11 @@
+.mt {
+    margin-top: 20px;
+}
+
+.ml {
+    margin-left: 20px;
+}
+
 .grid-table {
     display: grid;
     grid-template-columns: 10% 50% 40%;
@@ -19,12 +27,4 @@
 .grid-cell {
     border: 1px solid #ccc;
     padding: 10px;
-}
-
-.mt {
-    margin-top: 20px;
-}
-
-.ml {
-    margin-left: 20px;
 }
