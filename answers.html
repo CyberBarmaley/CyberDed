@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ответы</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/src/styles.css">
+    <script src="src/script.js" defer></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="mt ml">
+            <p class="lead mx-auto">
+                Архив со всеми ответами на первый семестр можно скачать по кнопке ниже. В нем содержатся следующие материалы:
+            </p>
+        </div>
+
+        <div class="d-flex gap-2 justify-content-center">
+            <button onclick="downloadFiles()" class="btn btn-primary d-inline-flex align-items-center" type="button">
+                Скачать файлы
+            </button>
+            <a id="materials" href="materials.zip" download style="display:none;"></a>
+        </div>
+
+        <div class="grid-table">
+            <div class="grid-header">Предмет</div>
+            <div class="grid-header">Задания</div>
+            <div class="grid-header">Ответы</div>
+
+            <div class="grid-row">
+                <div class="grid-cell">Мат. Анализ</div>
+                <div class="grid-cell">
+                    <p>Коллоквиум</p>
+                    <p>Вопросы к экзамену</p>
+                    <a href="https://dodem.ru" target="_blank">Нормальный антиДемидович</a>
+                </div>
+                <div class="grid-cell">Расписанные билеты экзамен</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">Алгем</div>
+                <div class="grid-cell">Вопросы к экзамену</div>
+                <div class="grid-cell">Расписанные билеты экзамен</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">Языки Програм-ния</div>
+                <div class="grid-cell">Летучки и ПЗ</div>
+                <div class="grid-cell">Решенные летучки</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">ТПВИ</div>
+                <div class="grid-cell">Задания</div>
+                <div class="grid-cell">Готовые работы</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">История</div>
+                <div class="grid-cell">Вопросы к зачету</div>
+                <div class="grid-cell">Некоторые доклады</div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">ОПК</div>
+                <div class="grid-cell">Вопросы к зачету</div>
+                <div class="grid-cell"> </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-cell">Основы инф. безопасности</div>
+                <div class="grid-cell">Темы для докладов</div>
+                <div class="grid-cell"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
