@@ -1,24 +1,24 @@
 .grid-table {
     display: grid;
     grid-template-columns: 10% 50% 40%;
-    grid-template-rows: auto; /* Высота строк будет автоматически подстраиваться под содержимое */
-    gap: 10px; /* Промежуток между ячейками */
+    grid-template-rows: auto; 
+    gap: 10px; 
     margin: 20px;
 }
 
 .grid-header {
     font-weight: bold;
-    background-color: #f0f0f0; /* Цвет фона для заголовков */
-    padding: 10px; /* Отступы внутри ячеек */
+    background-color: #f0f0f0; 
+    padding: 10px; 
 }
 
 .grid-row {
-    display: contents; /* Позволяет использовать грид-расположение для строк */
+    display: contents; 
 }
 
 .grid-cell {
-    border: 1px solid #ccc; /* Граница ячеек */
-    padding: 10px; /* Отступы внутри ячеек */
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
 .mt {
