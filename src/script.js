@@ -26,5 +26,5 @@ basement.innerHTML = `
 document.body.append(basement);
 
 function downloadFiles() {
-    document.getElementById('materials').click(); // Скачивание первого файла
+    document.getElementById('materials').click();
 }
