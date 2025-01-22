@@ -1,4 +1,4 @@
-# cyberded project
+# CyberDed project
 
 <a>Ресурс для создан для 4 группы</a>
 <a>Не совершайте чужих ошибок</a></br>
